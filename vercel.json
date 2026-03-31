@@ -1,6 +1,5 @@
 {
-  "framework": "vite",
-  "buildCommand": "pnpm --filter @workspace/home-tracker run build",
+  "buildCommand": "pnpm --filter @workspace/home-tracker run build && mv artifacts/home-tracker/dist dist",
   "outputDirectory": "dist",
   "rewrites": [
     {
