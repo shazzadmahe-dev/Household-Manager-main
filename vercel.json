@@ -1,7 +1,7 @@
 {
   "framework": "vite",
-  "buildCommand": "pnpm run build",
-  "outputDirectory": "artifacts/home-tracker/dist/public",
+  "buildCommand": "pnpm --filter @workspace/home-tracker run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/api/(.*)",
